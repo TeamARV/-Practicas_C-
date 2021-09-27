@@ -1,9 +1,16 @@
 
+import { Link } from 'react-router-dom';
+import imagentest from "../media/imagentest.png"
+
 function Page1() {
 
     return(
 
-        <span>pagina numero 1 </span>
+        <Link to="index"><img src={imagentest} alt="" /></Link>
+  
+
+
+
     )
 }
 

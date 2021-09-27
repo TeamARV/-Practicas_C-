@@ -1,5 +1,3 @@
-
-
 import Index from './pages';
 import Page1 from './pages/Page1';
 import './App.css';
@@ -8,7 +6,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -29,7 +26,10 @@ function App() {
 
         </Switch>  
     </Router>
+  
   </div>
+
+  
 
   );
 }
